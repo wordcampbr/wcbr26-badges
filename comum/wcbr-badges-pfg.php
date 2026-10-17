@@ -26,13 +26,13 @@ add_action(
 	20
 );
 
-// No primeiro carregamento o Playground às vezes responde 403 para os arquivos de wp-includes (jQuery),
-// e o navegador guarda esse 403 no cache. Nesse caso a página busca de novo esses arquivos, ignorando o
-// cache, e recarrega (até 5 vezes).
+// No primeiro carregamento o playground.wordpress.net às vezes responde 403 para arquivos do site (jQuery,
+// fontes), e o navegador guarda esse 403 no cache. Se faltar o jQuery ou alguma fonte der erro, a página
+// busca de novo todos os recursos do site, ignorando o cache, e recarrega (até 5 vezes por aba).
 add_action(
 	'wp_footer',
 	function () {
-		echo '<script>if(typeof jQuery==="undefined"){var n=+(sessionStorage.wcbrRecarregou||0);if(n<5){sessionStorage.wcbrRecarregou=n+1;var u=[].map.call(document.querySelectorAll("script[src],link[rel=stylesheet]"),function(e){return e.src||e.href});Promise.all(u.map(function(x){return fetch(x,{cache:"reload",mode:"no-cors"}).catch(function(){})})).then(function(){setTimeout(function(){location.reload()},1000*n)})}}</script>';
+		echo '<script>addEventListener("load",function(){setTimeout(function(){var falhou=typeof jQuery==="undefined"||[].some.call(document.fonts,function(f){return f.status==="error"});var n=+(sessionStorage.wcbrRecarregou||0);if(!falhou){sessionStorage.removeItem("wcbrRecarregou");return}if(n>=5)return;sessionStorage.wcbrRecarregou=n+1;var u=performance.getEntriesByType("resource").map(function(e){return e.name}).filter(function(x){return x.indexOf(location.origin)===0});Promise.all(u.map(function(x){return fetch(x,{cache:"reload",mode:"no-cors"}).catch(function(){})})).then(function(){location.reload()})},1500)});</script>';
 	},
 	99
 );
