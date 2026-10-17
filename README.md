@@ -4,7 +4,16 @@ Blueprints do [WordPress Playground](https://playground.wordpress.net/) com o ge
 
 | Papel | Link |
 | --- | --- |
+| Participante | [Abrir no Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/participante/blueprint.json) |
+| Palestrante | [Abrir no Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/palestrante/blueprint.json) |
+| Painelista | [Abrir no Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/painelista/blueprint.json) |
+| Patrocinador | [Abrir no Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/patrocinador/blueprint.json) |
+| Micropatrocinador | [Abrir no Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/micropatrocinador/blueprint.json) |
 | Organização | [Abrir no Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/organizacao/blueprint.json) |
+| Voluntariado | [Abrir no Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/voluntario/blueprint.json) |
+| Mídia parceira | [Abrir no Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/midia/blueprint.json) |
+| Líder de mesa | [Abrir no Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/lider-de-mesa/blueprint.json) |
+| Influenciador | [Abrir no Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/influenciador/blueprint.json) |
 
 Os badges ficam em [brasil.wordcamp.org/2026/badges](https://brasil.wordcamp.org/2026/badges/).
 

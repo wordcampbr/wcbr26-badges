@@ -1,0 +1,78 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"meta": {
+		"title": "Badge Palestrante · WordCamp Brasil 2026",
+		"author": "WordCamp Brasil 2026"
+	},
+	"landingPage": "/",
+	"preferredVersions": {
+		"php": "8.3",
+		"wp": "latest"
+	},
+	"features": {
+		"networking": true
+	},
+	"steps": [
+		{
+			"step": "setSiteLanguage",
+			"language": "pt_BR"
+		},
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "wordpress.org/plugins",
+				"slug": "profile-frame-generator"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+		{
+			"step": "mkdir",
+			"path": "/wordpress/wp-content/uploads/wcbr/"
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/languages/plugins/profile-frame-generator-pt_BR.l10n.php",
+			"data": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/comum/profile-frame-generator-pt_BR.l10n.php?v=828de50c"
+			}
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/mu-plugins/wcbr-badges-pfg.php",
+			"data": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/comum/wcbr-badges-pfg.php?v=2fde81bd"
+			}
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/uploads/wcbr/identidade.json",
+			"data": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/comum/identidade.json?v=e1cea688"
+			}
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/uploads/wcbr/playground.php",
+			"data": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/comum/playground.php?v=e775ddbb"
+			}
+		},
+		{
+			"step": "importWxr",
+			"file": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/palestrante/content.xml?v=316dd528"
+			}
+		},
+		{
+			"step": "runPHP",
+			"code": "<?php\n$wcbr_slug = 'palestrante';\n$wcbr_papel = 'Palestrante';\n$wcbr_moldura = 'https://i0.wp.com/brasil.wordcamp.org/2026/files/2026/10/wcbr26-badge-moldura-palestrante-e63987.png';\nrequire '/wordpress/wp-content/uploads/wcbr/playground.php';\n"
+		}
+	]
+}
