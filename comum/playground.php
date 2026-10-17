@@ -30,7 +30,7 @@ foreach ( array_unique( $m[1] ) as $fonte ) {
 	}
 }
 
-// Estilos globais com as fontes locais.
+// Estilos globais com as fontes locais, por caminho relativo: o runPHP roda sem HTTPS e geraria http://.
 $json = wp_json_encode(
 	array(
 		'version'                     => 3,
@@ -39,7 +39,7 @@ $json = wp_json_encode(
 		'styles'                      => $id['styles'],
 	)
 );
-$json = str_replace( 'https:\/\/brasil.wordcamp.org\/2026\/files\/fonts\/', str_replace( '/', '\/', content_url( 'uploads/wcbr/fonts/' ) ), $json );
+$json = str_replace( 'https:\/\/brasil.wordcamp.org\/2026\/files\/fonts\/', str_replace( '/', '\/', wp_make_link_relative( content_url( 'uploads/wcbr/fonts/' ) ) ), $json );
 wp_update_post( array( 'ID' => WP_Theme_JSON_Resolver::get_user_global_styles_post_id(), 'post_content' => wp_slash( $json ) ) );
 
 // Menus da produção. Sem os bindings de página, os links ficam com os endereços de lá.
