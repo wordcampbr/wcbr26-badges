@@ -36,7 +36,7 @@
 			"path": "/wordpress/wp-content/languages/plugins/profile-frame-generator-pt_BR.l10n.php",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/comum/profile-frame-generator-pt_BR.l10n.php"
+				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/comum/profile-frame-generator-pt_BR.l10n.php?v=828de50c"
 			}
 		},
 		{
@@ -44,7 +44,7 @@
 			"path": "/wordpress/wp-content/mu-plugins/wcbr-badges-pfg.php",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/comum/wcbr-badges-pfg.php"
+				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/comum/wcbr-badges-pfg.php?v=2fde81bd"
 			}
 		},
 		{
@@ -52,7 +52,7 @@
 			"path": "/wordpress/wp-content/uploads/wcbr/identidade.json",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/comum/identidade.json"
+				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/comum/identidade.json?v=e1cea688"
 			}
 		},
 		{
@@ -60,14 +60,14 @@
 			"path": "/wordpress/wp-content/uploads/wcbr/playground.php",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/comum/playground.php"
+				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/comum/playground.php?v=e775ddbb"
 			}
 		},
 		{
 			"step": "importWxr",
 			"file": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/organizacao/content.xml"
+				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/organizacao/content.xml?v=13aeae4a"
 			}
 		},
 		{
