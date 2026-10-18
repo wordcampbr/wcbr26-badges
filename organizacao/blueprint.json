@@ -67,12 +67,12 @@
 			"step": "importWxr",
 			"file": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/organizacao/content.xml?v=68d35af4"
+				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/organizacao/content.xml?v=0a4f6608"
 			}
 		},
 		{
 			"step": "runPHP",
-			"code": "<?php\n$wcbr_slug = 'organizacao';\n$wcbr_papel = 'Organização';\n$wcbr_moldura = 'https://i0.wp.com/brasil.wordcamp.org/2026/files/2026/10/wcbr26-badge-moldura-organizacao-cf0f37.png';\nrequire '/wordpress/wp-content/uploads/wcbr/playground.php';\n"
+			"code": "<?php\n$wcbr_slug = 'organizacao';\n$wcbr_papel = 'Organização';\n$wcbr_moldura = 'https://i0.wp.com/brasil.wordcamp.org/2026/files/2026/10/wcbr26-badge-moldura-organizacao-191238.png';\nrequire '/wordpress/wp-content/uploads/wcbr/playground.php';\n"
 		}
 	]
 }

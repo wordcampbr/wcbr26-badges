@@ -67,12 +67,12 @@
 			"step": "importWxr",
 			"file": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/painelista/content.xml?v=63fd33c2"
+				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/painelista/content.xml?v=a40edd00"
 			}
 		},
 		{
 			"step": "runPHP",
-			"code": "<?php\n$wcbr_slug = 'painelista';\n$wcbr_papel = 'Painelista';\n$wcbr_moldura = 'https://i0.wp.com/brasil.wordcamp.org/2026/files/2026/10/wcbr26-badge-moldura-painelista-b24af7.png';\nrequire '/wordpress/wp-content/uploads/wcbr/playground.php';\n"
+			"code": "<?php\n$wcbr_slug = 'painelista';\n$wcbr_papel = 'Painelista';\n$wcbr_moldura = 'https://i0.wp.com/brasil.wordcamp.org/2026/files/2026/10/wcbr26-badge-moldura-painelista-2d35a3.png';\nrequire '/wordpress/wp-content/uploads/wcbr/playground.php';\n"
 		}
 	]
 }

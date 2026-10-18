@@ -67,12 +67,12 @@
 			"step": "importWxr",
 			"file": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/micropatrocinador/content.xml?v=a2474a78"
+				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/micropatrocinador/content.xml?v=b6befc94"
 			}
 		},
 		{
 			"step": "runPHP",
-			"code": "<?php\n$wcbr_slug = 'micropatrocinador';\n$wcbr_papel = 'Micropatrocinador';\n$wcbr_moldura = 'https://i0.wp.com/brasil.wordcamp.org/2026/files/2026/10/wcbr26-badge-moldura-micropatrocinador-cac589.png';\nrequire '/wordpress/wp-content/uploads/wcbr/playground.php';\n"
+			"code": "<?php\n$wcbr_slug = 'micropatrocinador';\n$wcbr_papel = 'Micropatrocinador';\n$wcbr_moldura = 'https://i0.wp.com/brasil.wordcamp.org/2026/files/2026/10/wcbr26-badge-moldura-micropatrocinador-2f77fe.png';\nrequire '/wordpress/wp-content/uploads/wcbr/playground.php';\n"
 		}
 	]
 }

@@ -67,12 +67,12 @@
 			"step": "importWxr",
 			"file": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/voluntario/content.xml?v=76ac9325"
+				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/voluntario/content.xml?v=5c04e95b"
 			}
 		},
 		{
 			"step": "runPHP",
-			"code": "<?php\n$wcbr_slug = 'voluntario';\n$wcbr_papel = 'Voluntariado';\n$wcbr_moldura = 'https://i0.wp.com/brasil.wordcamp.org/2026/files/2026/10/wcbr26-badge-moldura-voluntario-02ca67.png';\nrequire '/wordpress/wp-content/uploads/wcbr/playground.php';\n"
+			"code": "<?php\n$wcbr_slug = 'voluntario';\n$wcbr_papel = 'Voluntariado';\n$wcbr_moldura = 'https://i0.wp.com/brasil.wordcamp.org/2026/files/2026/10/wcbr26-badge-moldura-voluntario-11cffb.png';\nrequire '/wordpress/wp-content/uploads/wcbr/playground.php';\n"
 		}
 	]
 }

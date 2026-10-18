@@ -67,12 +67,12 @@
 			"step": "importWxr",
 			"file": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/midia/content.xml?v=1529a6ce"
+				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/midia/content.xml?v=6ef88e19"
 			}
 		},
 		{
 			"step": "runPHP",
-			"code": "<?php\n$wcbr_slug = 'midia';\n$wcbr_papel = 'Mídia parceira';\n$wcbr_moldura = 'https://i0.wp.com/brasil.wordcamp.org/2026/files/2026/10/wcbr26-badge-moldura-midia-b96833.png';\nrequire '/wordpress/wp-content/uploads/wcbr/playground.php';\n"
+			"code": "<?php\n$wcbr_slug = 'midia';\n$wcbr_papel = 'Mídia parceira';\n$wcbr_moldura = 'https://i0.wp.com/brasil.wordcamp.org/2026/files/2026/10/wcbr26-badge-moldura-midia-530f3b.png';\nrequire '/wordpress/wp-content/uploads/wcbr/playground.php';\n"
 		}
 	]
 }
