@@ -10,15 +10,15 @@
 	<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin]]></wp:author_login><wp:author_display_name><![CDATA[admin]]></wp:author_display_name></wp:author>
 	<item>
 		<title><![CDATA[Moldura Micropatrocinador]]></title>
-		<link>https://brasil.wordcamp.org/2026/files/2026/10/wcbr26-badge-moldura-micropatrocinador-2f77fe.png</link>
+		<link>https://brasil.wordcamp.org/2026/files/2026/10/wcbr26-badge-moldura-micropatrocinador-6f950c.png</link>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://brasil.wordcamp.org/2026/files/2026/10/wcbr26-badge-moldura-micropatrocinador-2f77fe.png</guid>
+		<guid isPermaLink="false">https://brasil.wordcamp.org/2026/files/2026/10/wcbr26-badge-moldura-micropatrocinador-6f950c.png</guid>
 		<content:encoded><![CDATA[]]></content:encoded>
-		<wp:post_id>2976</wp:post_id>
+		<wp:post_id>2995</wp:post_id>
 		<wp:post_name><![CDATA[wcbr26-badge-moldura-micropatrocinador]]></wp:post_name>
 		<wp:status><![CDATA[inherit]]></wp:status>
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:attachment_url><![CDATA[https://i0.wp.com/brasil.wordcamp.org/2026/files/2026/10/wcbr26-badge-moldura-micropatrocinador-2f77fe.png]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://i0.wp.com/brasil.wordcamp.org/2026/files/2026/10/wcbr26-badge-moldura-micropatrocinador-6f950c.png]]></wp:attachment_url>
 	</item>
 	<item>
 		<title><![CDATA[Badge Micropatrocinador]]></title>
@@ -28,7 +28,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:shortcode -->
-[profile_frame frame="2976"]
+[profile_frame frame="2995"]
 <!-- /wp:shortcode -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
