@@ -10,15 +10,15 @@
 	<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin]]></wp:author_login><wp:author_display_name><![CDATA[admin]]></wp:author_display_name></wp:author>
 	<item>
 		<title><![CDATA[Moldura Participante]]></title>
-		<link>https://brasil.wordcamp.org/2026/files/2026/10/wcbr26-badge-moldura-participante-085ccb.png</link>
+		<link>https://brasil.wordcamp.org/2026/files/2026/10/wcbr26-badge-moldura-participante-0df8a1.png</link>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://brasil.wordcamp.org/2026/files/2026/10/wcbr26-badge-moldura-participante-085ccb.png</guid>
+		<guid isPermaLink="false">https://brasil.wordcamp.org/2026/files/2026/10/wcbr26-badge-moldura-participante-0df8a1.png</guid>
 		<content:encoded><![CDATA[]]></content:encoded>
-		<wp:post_id>2941</wp:post_id>
+		<wp:post_id>2967</wp:post_id>
 		<wp:post_name><![CDATA[wcbr26-badge-moldura-participante]]></wp:post_name>
 		<wp:status><![CDATA[inherit]]></wp:status>
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:attachment_url><![CDATA[https://i0.wp.com/brasil.wordcamp.org/2026/files/2026/10/wcbr26-badge-moldura-participante-085ccb.png]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://i0.wp.com/brasil.wordcamp.org/2026/files/2026/10/wcbr26-badge-moldura-participante-0df8a1.png]]></wp:attachment_url>
 	</item>
 	<item>
 		<title><![CDATA[Badge Participante]]></title>
@@ -28,7 +28,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:shortcode -->
-[profile_frame frame="2941"]
+[profile_frame frame="2967"]
 <!-- /wp:shortcode -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
