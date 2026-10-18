@@ -83,7 +83,8 @@ update_option( 'page_on_front', $page->ID );
 update_option( 'blogname', 'Badge ' . $wcbr_papel . ' · WordCamp Brasil 2026' );
 update_option( 'profileframegen_frame_id', $att_id );
 update_option( 'profileframegen_gravatar_field', '1' );
-update_option( 'profileframegen_instructions_text', '<ul><li><strong>Envie a foto:</strong> clique na área de envio e escolha a sua foto de perfil, ou use o Gravatar.</li><li><strong>Ajuste:</strong> arraste para posicionar, use a rolagem ou os botões para o zoom e gire se precisar.</li><li><strong>Baixe:</strong> clique no botão para baixar a nova foto de perfil.</li></ul>' );
+// Os passos ficariam embaixo do gerador (o plugin não deixa mudar a posição) e repetem a própria tela.
+update_option( 'profileframegen_show_instructions', '0' );
 
 // Página inicial: cabeçalho e rodapé da produção, com o gerador no meio.
 $tpl = wp_insert_post(

@@ -60,14 +60,14 @@
 			"path": "/wordpress/wp-content/uploads/wcbr/playground.php",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/comum/playground.php?v=e775ddbb"
+				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/comum/playground.php?v=17bca224"
 			}
 		},
 		{
 			"step": "importWxr",
 			"file": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/voluntario/content.xml?v=b6f18360"
+				"url": "https://raw.githubusercontent.com/wordcampbr/wcbr26-badges/main/voluntario/content.xml?v=ad71de9c"
 			}
 		},
 		{

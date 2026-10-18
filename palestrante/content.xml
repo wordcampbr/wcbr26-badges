@@ -27,12 +27,16 @@
 <h1 class="wp-block-heading has-text-align-center has-x-large-font-size">Badge Palestrante</h1>
 <!-- /wp:heading -->
 
+<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
+<p class="has-text-align-center has-small-font-size">Sua foto é processada no seu navegador e não é enviada para nenhum site.</p>
+<!-- /wp:paragraph -->
+
 <!-- wp:shortcode -->
 [profile_frame frame="2999"]
 <!-- /wp:shortcode -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size">A foto é processada no seu navegador e não é enviada para nenhum site. Use a imagem no seu perfil, marque <a href="https://www.instagram.com/wordcampbrasil/">@wordcampbrasil</a> e use <strong>#WCBR2026</strong>. <a href="https://brasil.wordcamp.org/2026/">brasil.wordcamp.org/2026</a></p>
+<p class="has-text-align-center has-small-font-size">Use a imagem no seu perfil, marque <a href="https://www.instagram.com/wordcampbrasil/">@wordcampbrasil</a> e use <strong>#WCBR2026</strong>. <a href="https://brasil.wordcamp.org/2026/">brasil.wordcamp.org/2026</a></p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<wp:post_id>10</wp:post_id>
 		<wp:post_name><![CDATA[badge-palestrante]]></wp:post_name>
